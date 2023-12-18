@@ -11,5 +11,5 @@ jobs:
     - name: Run codespell
       uses: codespell-project/actions-codespell@master
       with:
-        skip: ./.git
+        skip: ./.git, ./fio/SEF-FIO.patch, ./qemu/SEF-QEMU.patch, ./linux/SEF-LINUX.patch, ./nvme-cli/SEF-NVME.patch
         ignore_words_list: tanstaafl
